@@ -111,3 +111,34 @@ footer {
     width: 40px;
     height: auto;
 }
+```css
+/* Adventure Gallery */
+
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-gallery figure {
+    flex: 1;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--accent1-color);
+}
