@@ -85,9 +85,8 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-
     padding: 16px;
-    background-color: rgb(255 255 255 / 0.85);
+    background-color: white;
     color: var(--accent1-color);
 }
 
@@ -111,7 +110,6 @@ footer {
     width: 40px;
     height: auto;
 }
-```css
 /* Adventure Gallery */
 
 .adventures h2 {
