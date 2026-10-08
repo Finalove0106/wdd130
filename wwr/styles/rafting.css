@@ -96,8 +96,23 @@ article {
 }
 
 /* Social media links */
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    display: block;
+    width: 40px;
+    height: auto;
 }
 
 /* Hero container */
@@ -160,24 +175,6 @@ footer p {
     text-align: center;
 }
 
-.socialmedia {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    display: block;
-    width: 40px;
-    height: auto;
-}
 /* Adventure Gallery */
 
 .adventures h2 {
